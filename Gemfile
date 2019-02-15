@@ -36,7 +36,11 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+<<<<<<< HEAD
 gem 'will_paginate', '~> 3.1.0'
+=======
+gem 'will_paginate', '~>3.1.1'
+>>>>>>> 47e2d6ab4d89925305983a3f41d0157ff35c5a3d
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -54,7 +58,11 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'annotate'
   gem 'rails-erd'
+<<<<<<< HEAD
   gem 'sqlite3', '~> 1.3.13'
+=======
+  gem 'sqlite3'
+>>>>>>> 47e2d6ab4d89925305983a3f41d0157ff35c5a3d
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

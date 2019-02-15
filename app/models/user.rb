@@ -18,6 +18,7 @@
 class User < ApplicationRecord
   has_many :micropost
 
+
   validates :email, presence: true
   validates :first_name, presence: true
   validates :last_name, presence: true

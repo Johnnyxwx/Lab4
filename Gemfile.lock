@@ -186,7 +186,11 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
     sqlite3 (1.3.13)
+=======
+    sqlite3 (1.4.0)
+>>>>>>> 47e2d6ab4d89925305983a3f41d0157ff35c5a3d
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
@@ -232,15 +236,27 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+<<<<<<< HEAD
   sqlite3 (~> 1.3.13)
+=======
+  sqlite3
+>>>>>>> 47e2d6ab4d89925305983a3f41d0157ff35c5a3d
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+<<<<<<< HEAD
   will_paginate (~> 3.1.0)
+=======
+  will_paginate (~> 3.1.1)
+>>>>>>> 47e2d6ab4d89925305983a3f41d0157ff35c5a3d
 
 RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
    2.0.1
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47e2d6ab4d89925305983a3f41d0157ff35c5a3d
